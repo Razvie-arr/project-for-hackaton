@@ -1,0 +1,155 @@
+@charset "UTF-8";
+body {
+  background: url("/static/img/girl.svg") no-repeat center top;
+}
+
+.btn-reg {
+  position: absolute;
+  width: 263px;
+  height: 68px;
+  left: 1253px;
+  top: 82px;
+  background: #F1F1EF;
+  border-radius: 32px;
+}
+
+.txt-reg {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #00835E;
+  top: 5px;
+}
+
+.btn-add {
+  position: absolute;
+  width: 232px;
+  height: 68px;
+  left: 1567px;
+  top: 82px;
+  border: 1.5px solid #F1F1EF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 32px;
+}
+
+.txt-add {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #F1F1EF;
+}
+
+.soul {
+  position: absolute;
+  width: 830px;
+  height: 95px;
+  left: 1040px;
+  top: 200px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 68px;
+  line-height: 91px;
+  color: #FFFFFF;
+}
+
+.find {
+  position: absolute;
+  width: 615px;
+  height: 88px;
+  left: 1040px;
+  top: 338px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+.whatsapp {
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 1537px;
+  top: 862px;
+  border: none;
+  background: url("/static/img/вотсаб.svg");
+}
+
+.insta {
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 1608px;
+  top: 862px;
+  background: url("/static/img/inst.svg");
+}
+
+.twitter {
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 1679px;
+  top: 862px;
+  background: url("/static/img/Твитр.svg");
+}
+
+.facebook {
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 1750px;
+  top: 862px;
+  background: url("/static/img/фейсбук.svg");
+}
+
+select {
+  position: absolute;
+  width: 96px;
+  height: 26px;
+  left: 120px;
+  top: 103px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.for-select {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 26px;
+  color: #FFFFFF;
+  /* identical to box height */
+}
+/*# sourceMappingURL=main.css.map */
