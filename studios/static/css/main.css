@@ -1,16 +1,26 @@
 @charset "UTF-8";
 body {
-  background: url("/static/img/girl.svg") no-repeat center top;
+  background: url("/static/img/new_back.svg") no-repeat center top;
 }
 
 .btn-reg {
   position: absolute;
   width: 263px;
   height: 68px;
-  left: 1253px;
-  top: 82px;
+  left: 1254px;
+  top: 85px;
   background: #F1F1EF;
   border-radius: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 1px;
 }
 
 .txt-reg {
@@ -26,7 +36,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: #00835E;
+  color: #00B4DC;
   top: 5px;
 }
 
@@ -40,6 +50,16 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 1px;
 }
 
 .txt-add {
@@ -89,7 +109,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #FFFFFF;
+  color: #FDED9D;
 }
 
 .whatsapp {
