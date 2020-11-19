@@ -7,8 +7,8 @@ body {
   position: absolute;
   width: 263px;
   height: 68px;
-  left: 1254px;
-  top: 85px;
+  left: 1465px;
+  top: 100px;
   background: #F1F1EF;
   border-radius: 32px;
   display: -webkit-box;
@@ -20,7 +20,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  letter-spacing: 1px;
 }
 
 .txt-reg {
@@ -38,14 +37,15 @@ body {
   text-align: center;
   color: #00B4DC;
   top: 5px;
+  letter-spacing: 2px;
 }
 
 .btn-add {
   position: absolute;
   width: 232px;
   height: 68px;
-  left: 1567px;
-  top: 82px;
+  left: 1107px;
+  top: 100px;
   border: 1.5px solid #F1F1EF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -59,7 +59,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  letter-spacing: 1px;
 }
 
 .txt-add {
@@ -75,29 +74,30 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  letter-spacing: 1px;
   color: #F1F1EF;
 }
 
 .soul {
   position: absolute;
-  width: 830px;
-  height: 95px;
-  left: 1040px;
-  top: 200px;
+  width: 537px;
+  height: 181px;
+  left: 1107px;
+  top: 257px;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
-  font-size: 68px;
-  line-height: 91px;
+  font-size: 70px;
+  line-height: 85px;
   color: #FFFFFF;
 }
 
 .find {
   position: absolute;
-  width: 615px;
-  height: 88px;
-  left: 1040px;
-  top: 338px;
+  width: 546px;
+  height: 75px;
+  left: 1107px;
+  top: 489px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -116,7 +116,7 @@ body {
   position: absolute;
   width: 49px;
   height: 50px;
-  left: 1537px;
+  left: 1447px;
   top: 862px;
   border: none;
   background: url("/static/img/вотсаб.svg");
@@ -126,7 +126,7 @@ body {
   position: absolute;
   width: 49px;
   height: 50px;
-  left: 1608px;
+  left: 1518px;
   top: 862px;
   background: url("/static/img/inst.svg");
 }
@@ -135,7 +135,7 @@ body {
   position: absolute;
   width: 49px;
   height: 50px;
-  left: 1679px;
+  left: 1589px;
   top: 862px;
   background: url("/static/img/Твитр.svg");
 }
@@ -144,32 +144,44 @@ body {
   position: absolute;
   width: 49px;
   height: 50px;
-  left: 1750px;
+  left: 1660px;
   top: 862px;
   background: url("/static/img/фейсбук.svg");
 }
 
-select {
+.kids {
   position: absolute;
-  width: 96px;
-  height: 26px;
-  left: 120px;
-  top: 103px;
+  width: 117px;
+  height: 121px;
+  left: 150px;
+  top: 68px;
+}
+
+.mirniy {
+  position: absolute;
+  width: 92.07px;
+  height: 42.78px;
+  left: 155px;
+  top: 203px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #FFFFFF;
 }
 
-.for-select {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 21px;
-  line-height: 26px;
-  color: #FFFFFF;
-  /* identical to box height */
+.polygon {
+  position: absolute;
+  width: 17px;
+  height: 10px;
+  left: 246px;
+  top: 219px;
 }
 /*# sourceMappingURL=main.css.map */
