@@ -1,15 +1,19 @@
 body {
-    background: url("/static/img/girl.svg") no-repeat center top;
+    background: url("/static/img/new_back.svg") no-repeat center top;
 }
 
 .btn-reg {
     position: absolute;
     width: 263px;
     height: 68px;
-    left: 1253px;
-    top: 82px;
+    left: 1254px;
+    top: 85px;
     background: #F1F1EF;
     border-radius: 32px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
 }
 .txt-reg {
     font-family: Montserrat;
@@ -20,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #00835E;
+    color: #00B4DC;;
     top: 5px;
     }
 
@@ -33,6 +37,10 @@ body {
     border: 1.5px solid #F1F1EF;
     box-sizing: border-box;
     border-radius: 32px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
 }
 
 .txt-add {
@@ -78,7 +86,7 @@ body {
     display: flex;
     align-items: center;
 
-    color: #FFFFFF;
+    color: #FDED9D;
 
 }
 
