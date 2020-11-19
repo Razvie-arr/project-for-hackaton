@@ -9,9 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-import dj_database_url 
-prod_db  =  dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(prod_db)
+from whitenoise import WhiteNoise
 from pathlib import Path
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,7 +25,7 @@ SECRET_KEY = '@txr69g7sef_g9)^4zt3*dkz01_k6d^5f-jzdv!of4$)e5d*%j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', '192.168.0.194', 'https://hackatonapp.herokuapp.com]
+ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', '192.168.0.194', 'https://hackatonapp.herokuapp.com']
 
 
 # Application definition
@@ -123,10 +121,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 PROJECT_ROOT   =   os.path.join(os.path.abspath(__file__))
 STATIC_URL = '/static/'
-STATIC_ROOT  =   os.path.join(PROJECT_ROOT, 'staticfiles')
+STATIC_ROOT  =   os.path.join(PROJECT_ROOT, '/static/')
 STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
 )
 
 #  Add configuration for static files storage using whitenoise
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
